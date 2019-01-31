@@ -1,0 +1,141 @@
+body, html {
+	margin: 0;
+	height: 100%;
+}
+
+
+.intro-back {
+	margin: 0;
+    height: 120vh;
+    background-image: url('7.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.intro {
+	text-align: center;
+	font-family: 'Major Mono Display', monospace;
+}
+
+.jumbotron {
+	background-color: #A9A9A9;
+	margin: 0;
+	font-family: 'Major Mono Display', monospace;
+}
+
+.my-grid {
+	margin: 0;
+	padding: 50px;
+	display: grid;
+	grid-gap: 150px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	justify-items: center;
+}
+	
+
+h1 {
+	letter-spacing: 10px;
+	font-kerning: normal;
+}
+
+.card {
+	background-color: #A9A9A9;
+}
+
+.about {
+	text-align: center;
+}
+
+
+#About-Me {
+	background: grey;
+}
+
+.projects {
+	text-align: center;
+	font-family: 'Major Mono Display', monospace;
+	color: white;
+}
+
+
+#My-Projects {
+	text-align: center;
+	padding: 20px;
+	background-image: url('5.jpg');
+	background-size: cover;
+}
+
+.card-img-top {
+	transition: all 1s ease-in-out;
+}
+
+.card-img-top:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 1s ease-in-out;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.sico {
+	align-self: flex-end;
+}
+
+.sicon {
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+
+.two {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+}
+
+.sicon:hover {
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+.sicon-link:hover {
+	text-decoration: none;
+}
+
+.insta {
+	margin-left: -5px;
+	height: 35px;
+	width: 35px;
+}
+
+.col-md-6 {
+	text-align: center;
+}
+
+.picture1 {
+	background-image: url('liverpool.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.picture2 {
+	background-image: url('prague.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.picture3 {
+	background-image: url('japan.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
